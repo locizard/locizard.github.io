@@ -37,11 +37,11 @@ header {
   transition: 0.4s all;
 }
 .menu li:first-child a:first-child {
-  text-decoration: underline;
+  border-bottom: 1px #ffffff solid;
   opacity: 1;
 }
 .menu li:hover a:hover {
-  text-decoration: underline;
+  border-bottom: 1px #0fdf77 solid;
   opacity: 1;
   color: #0fdf77;
 }
@@ -84,15 +84,11 @@ header {
   outline: none;
 }
 .your_life .your_life_button:hover {
-  color: #0fdf77;
   cursor: pointer;
-  font-size: 14.4px;
-  border: 1px solid #0fdf77;
+  background: #009cc2;
 }
 .your_life .your_life_button:active {
   color: #df0f5f;
-  font-size: 14.4px;
-  border: 1px solid #df0f5f;
 }
 .your_life .your_life_social {
   padding: 0 713px 0 716px;
@@ -173,15 +169,11 @@ header {
   outline: none;
 }
 .rappresent .rappresent_block .rappresent_block_text .rappresent_btn:hover {
-  color: #0fdf77;
   cursor: pointer;
-  font-size: 14.4px;
-  border: 1px solid #0fdf77;
+  background: #009cc2;
 }
 .rappresent .rappresent_block .rappresent_block_text .rappresent_btn:active {
   color: #df0f5f;
-  font-size: 14.4px;
-  border: 1px solid #df0f5f;
 }
 .community {
   max-height: 504px;
@@ -300,15 +292,11 @@ header {
   outline: none;
 }
 .implement .implement_wrapper .implement_block .implement_btn:hover {
-  color: #0fdf77;
   cursor: pointer;
-  font-size: 14.4px;
-  border: 1px solid #0fdf77;
+  background: #009cc2;
 }
 .implement .implement_wrapper .implement_block .implement_btn:active {
   color: #df0f5f;
-  font-size: 14.4px;
-  border: 1px solid #df0f5f;
 }
 .subscribe {
   height: 598px;
@@ -350,16 +338,13 @@ header {
 }
 .subscribe .subscribe_email .subscribe_btn:hover {
   cursor: pointer;
-  border: 1px solid #0fdf77;
-}
-.subscribe .subscribe_email .subscribe_btn:active {
-  border: 1px solid #df0f5f;
+  background: #009cc2;
 }
 .icon-checkmark:before {
   content: "\ea10";
   color: #ffffff;
   font-size: 16px;
-  transition: 0.7s all;
+  transition: 0.4s all;
 }
 .icon-checkmark:hover.icon-checkmark:before {
   color: #0fdf77;
@@ -450,3 +435,49 @@ header {
   content: "\eac0";
   color: #ffffff;
 }
+footer {
+  max-height: 184px;
+  padding: 60px 160px 80px 160px;
+  background: #000000;
+}
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_wrapper .footer_link ul {
+  width: 236px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: normal;
+  font-size: 14px;
+  opacity: 0.98;
+  list-style-type: none;
+  padding-top: 5px;
+}
+.footer_wrapper .footer_link .divider {
+  font-size: 9px;
+  color: #4e4e4e;
+  padding-top: 4px;
+  font-weight: 900;
+}
+.footer_wrapper .footer_link a {
+  color: #ffffff;
+  text-decoration: none;
+}
+footer img {
+  padding-right: 68px;
+}
+.footer_wrapper .footer_text {
+  font-weight: normal;
+  font-size: 14px;
+  color: #818181;
+  padding-top: 2px;
+}
+.footer_wrapper .footer_link:nth-child(odd) li:hover a:hover {
+  border-bottom: 1px #0fdf77 solid;
+  color: #0fdf77;
+  transition: 0.4s all;
+}
+
