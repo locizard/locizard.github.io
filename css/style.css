@@ -178,6 +178,7 @@ header {
 .community {
   max-height: 504px;
   padding: 79px 0 140px 269px;
+  background: #F5F6F7;
 }
 .community_wrapper {
   display: flex;
@@ -480,4 +481,3 @@ footer img {
   color: #0fdf77;
   transition: 0.4s all;
 }
-
