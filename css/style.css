@@ -479,5 +479,6 @@ footer img {
 .footer_wrapper .footer_link:nth-child(odd) li:hover a:hover {
   border-bottom: 1px #0fdf77 solid;
   color: #0fdf77;
-  transition: 0.4s all;
+  transition: 0.8s all;
+
 }
